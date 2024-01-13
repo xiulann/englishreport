@@ -23,12 +23,13 @@
 #text {
       font-family: 'Bangers', system-ui;
       margin-left: 20px;
-      font-size: 25px;
+      font-size: 0;
       color: red;
       animation: zoomInText 0.75s ease-out;
       display: inline-block;
   }
 .letter {
+    font-size: 25px;
     transform: skewY(-90deg);
     display: inline-block;
     animation: bounce 0.9s ease infinite;
